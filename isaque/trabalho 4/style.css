@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    color: #A0aCB2;
+}
+.texto1{
+    display: flex;
+    width: 50%;
+    height: 45%;
+    
+}
+.texto2{
+    display: flex;
+}
