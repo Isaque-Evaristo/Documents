@@ -1,0 +1,10 @@
+body{
+    background-image: url(./img/nazare.jfif);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    padding-top: 300px;
+    padding-left: 100px;
+}
