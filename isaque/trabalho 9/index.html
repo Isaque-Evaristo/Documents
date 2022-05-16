@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>oi,seja muito bem vindo</h1>
+        <h2>informenos tres numeros e lhe direi o maior</h2>
+        <h3>clique em "ok" para continuar</h3>
+        <button onclick="ok()">ok</button>
+    </div>
+    <div>
+        <h2>insira 3 numeros e clique em "calcular maior"</h2>
+        primeiro numero: <input id="numero1" type="number"> 
+        segundo numero: <input id="numero2" type="number">
+        terceiro numero: <input id="numero3" type="number">
+        <button onclick="maior()">calcular maior</button>
+
+        <script type="text/javascript">
+            function maior(){
+                var num1 = parseFloat(document.getElementById("numero1").value)
+                var num2 = parseFloat(document.getElementById("numero2").value)
+                var num3 = parseFloat(document.getElementById("numero3").value)
+                var maior = num1;
+
+                if(num2 > maior)maior = num2;
+                if(num3 > maior)maior = num3;
+
+                alert("maior:" +maior)
+            }
+
+        </script>
+
+    </div>
+</body>
+</html>
